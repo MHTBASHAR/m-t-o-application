@@ -61,6 +61,9 @@ footer {
     text-align: center;
     margin-top: 20px;
     padding: 10px 0;
-    background-color: #f1f1f1; /* Optional: add a background color */
-    border-top: 1px solid #ccc; /* Optional: add a top border */
+    background-color:#007BFF;
+    border-top: 1px solid #ccc;
+    border-radius: 10px;
+    color: #fff;
+    width: 100%;
 }
