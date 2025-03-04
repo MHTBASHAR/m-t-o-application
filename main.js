@@ -55,12 +55,12 @@ fetch(url)
         .openPopup();
     }
     else{
-        document.getElementById('weatherInfo').innerHTML = `<p> City couldn't found </p>`;
+        document.getElementById('weatherInfo').innerHTML = `<p> Je n'ai pas pu trouver la ville </p>`;
     }
 })
 .catch((error)=> {
     console.error('Error fetching weather data:', error);
-    document.getElementById('weatherInfo').innerHTML = `<p> error finding location</p>`;
+    document.getElementById('weatherInfo').innerHTML = `<p> erreur lors de la récupération des données météo</p>`;
 
 })
 }
